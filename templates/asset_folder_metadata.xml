@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<settings>
+	<paths>
+		<rootPath></rootPath>
+		<archiveRootPath></archiveRootPath>
+		<tripProjectName></tripProjectName>
+		<orthosPath></orthosPath>
+		<webAlblumRoot></webAlblumRoot>
+		<AllResourcesListFile></AllResourcesListFile>
+		<webAlblumListFile></webAlblumListFile>
+		<deleteImagesListFile></deleteImagesListFile>
+		<allJpgsList>all_jpg.txt</allJpgsList>
+		<allRawList>all_raw.txt</allRawList>
+		<allVideoList>all_video.txt</allVideoList>
+	</paths>
+
+</settings>
+

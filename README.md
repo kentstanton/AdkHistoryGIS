@@ -1,6 +1,8 @@
 # AdkHistoryGIS
-Forest History GIS for the Adirondack Mountain Region of New York State
+Assets and scripts supporting the creation of a Forest History Information System (a Geographic Information System: a GIS) for the Adirondack Mountain Region of New York State.
 
-Resources for building and managing a forest history GIS. A forest history GIS provides data storage and tools for exploring the chnage history of a forested landscape.
+A forest history GIS is used to record and analyze the change history of a forested landscape.
 
-Knowing what forests were like in the past combined with the state of the forest today will make it possible to forecast future forest conditions. Storing the data in reliable formats will make it easier for future researchers to understand how forest conditions change over time.  
+The assets in this repository support the development of a GIS designed to manage structured data sets representing the state of a forest over time. The system uses a protocol based process to support the acquistion, management and storage of data in a way that maintains provenance and clarity on exactly what the various data represent.
+
+The Adirondack Forest GIS represents a specific instance of a type of GIS. The intent is to support the creation of forest information systems representing other forests and other natural landscapes of ecological interest. 

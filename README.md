@@ -1,4 +1,4 @@
-# adkhistorygis
+# AdkHistoryGIS
 Forest History GIS for the Adirondack Mountain Region of New York State
 
 Resources for building and managing a forest history GIS. A forest history GIS provides data storage and tools for exploring the chnage history of a forested landscape.

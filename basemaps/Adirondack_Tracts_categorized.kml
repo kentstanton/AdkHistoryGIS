@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Adirondack_Tracts_categorized.kml</name>
+	<Schema name="Adirondack_Tracts" id="Adirondack_Tracts">
+		<SimpleField type="int" name="gid"></SimpleField>
+		<SimpleField type="float" name="id"></SimpleField>
+		<SimpleField type="int" name="year"></SimpleField>
+	</Schema>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000aa</color>
+			<colorMode>random</colorMode>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000aa</color>
+			<colorMode>random</colorMode>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Adirondack_Tracts</name>
+		<open>1</open>
+		<Placemark>
+			<name>Nobleboro</name>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">10</SimpleData>
+					<SimpleData name="id">16</SimpleData>
+					<SimpleData name="year">1787</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.77629181805764,43.49159526337146,0 -74.84100539098655,43.38279256480504,0 -74.99552418132545,43.43932238311382,0 -74.92760357924277,43.5481952944272,0 -74.77629181805764,43.49159526337146,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Arthurboro</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">11</SimpleData>
+					<SimpleData name="id">14</SimpleData>
+					<SimpleData name="year">1787</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.77629181805764,43.49159526337146,0 -74.63121526303478,43.43751810490476,0 -74.64636821100766,43.41442736811538,0 -74.62748579145251,43.40810826193635,0 -74.67836462439195,43.32754888542277,0 -74.84098808609016,43.38281994498161,0 -74.77629181805764,43.49159526337146,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Jerseyfield Patent</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">12</SimpleData>
+					<SimpleData name="id">22</SimpleData>
+					<SimpleData name="year">1770</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.53453968460305,43.22807848237014,0 -74.69678035379857,43.17885557089903,0 -75.092637,43.313639,0 -75.09394391314299,43.32308838603971,0 -75.08434571514762,43.3296636944748,0 -75.06825834597323,43.3317824583574,0 -75.0639631670664,43.34182922740956,0 -75.05073204123848,43.34202670689952,0 -75.041154285975,43.35219690063293,0 -75.01751076907851,43.35027903393515,0 -74.94583506021284,43.36479441209474,0 -74.86770424071628,43.34049407313464,0 -74.53453968460305,43.22807848237014,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Lawrence Patent</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">13</SimpleData>
+					<SimpleData name="id">20</SimpleData>
+					<SimpleData name="year">1791</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.84099842747463,43.38280358262558,0 -74.50998382783088,43.2703416520408,0 -74.53453968460305,43.22807848237014,0 -74.86770424071628,43.34049407313464,0 -74.84099842747463,43.38280358262558,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Glen, Bleecker and Lansing Patent</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">15</SimpleData>
+					<SimpleData name="id">33</SimpleData>
+					<SimpleData name="year">1794</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.22085798500011,43.22137919440782,0 -74.21724482975932,43.19245657088838,0 -74.26125010269263,43.16512846307063,0 -74.255707,43.09954,0 -74.44025599751329,43.09184900029326,0 -74.43986,43.088388,0 -74.50263255624033,43.07482633532558,0 -74.50142412250634,43.0667402978827,0 -74.50578738866894,43.0667402978827,0 -74.50815714254857,43.05331169256481,0 -74.73014405500192,43.12849197810298,0 -74.73545099160192,43.1425039758814,0 -74.70888997520557,43.15127999571614,0 -74.70960799768018,43.15538199263816,0 -74.71824402315399,43.16356700492929,0 -74.70929001221028,43.17186397709976,0 -74.69835700163773,43.17299999656227,0 -74.6962447799683,43.17907788394574,0 -74.53453968460305,43.22807848237014,0 -74.47164812184053,43.22018186158866,0 -74.38770958008593,43.21588328323756,0 -74.37644644819713,43.19870731406937,0 -74.33338568645868,43.21384908288746,0 -74.22085798500011,43.22137919440782,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Chases Patent</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">20</SimpleData>
+					<SimpleData name="id">123</SimpleData>
+					<SimpleData name="year">1792</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.34425209030675,43.22898126264195,0 -74.33338568645868,43.21384908288746,0 -74.37644644819713,43.19870731406937,0 -74.38770958008593,43.21588328323756,0 -74.34425209030675,43.22898126264195,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Lewis County</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">5</SimpleData>
+					<SimpleData name="id">9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-75.08903479147382,44.06178695827525,0 -75.227864,43.906673,0 -75.24870522993238,44.04623856812911,0 -75.25502457361139,44.04584360914917,0 -75.24633547605276,44.06638147610595,0 -75.29807510242465,44.09126389184205,0 -75.2767287508525,44.14267912842545,0 -75.08903479147382,44.06178695827525,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">18</SimpleData>
+					<SimpleData name="id">111</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-75.21254508299268,43.90582945747103,0 -75.17584842427701,43.94313354059489,0 -75.15001087914372,43.94441276789333,0 -75.10927084051417,43.61571279814487,0 -75.10927084051417,43.61571279814487,0 -74.92770415406453,43.54803407863533,0 -74.99552418132545,43.43932238311382,0 -74.8410181466456,43.38277238251133,0 -74.86770424071628,43.34049407313464,0 -74.94583506021284,43.36479441209474,0 -75.01751288757583,43.35029958309227,0 -75.04095027840887,43.35217631271341,0 -75.05073204123848,43.34202670689952,0 -75.0639631670664,43.34182922740956,0 -75.06850003932692,43.33175062648091,0 -75.07665748336889,43.33074921235027,0 -75.09788094512561,43.50716127944039,0 -75.114121,43.505013,0 -75.11606999999999,43.51924,0 -75.102515,43.520365,0 -75.10079636721244,43.53453814562224,0 -75.21953755992389,43.52526296577708,0 -75.2254396456441,43.56209678316655,0 -75.22334100000001,43.563042,0 -75.224092,43.572306,0 -75.293767,43.568285,0 -75.300754,43.638459,0 -75.318693,43.637213,0 -75.31929264790395,43.64655520271139,0 -75.30161099999999,43.647578,0 -75.30692430291717,43.70283947593696,0 -75.30934791893964,43.74784697919827,0 -75.31080914701455,43.74724451883563,0 -75.317151,43.80487,0 -75.227864,43.906673,0 -75.21254508299268,43.90582945747103,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Dartmouth patent</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">17</SimpleData>
+					<SimpleData name="id">88</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.06085404808546,43.52931401187497,0 -73.94776090393943,43.59452796649202,0 -73.743331,43.375665,0 -73.826255,43.293904,0 -74.06085404808546,43.52931401187497,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Old Milirary Tract</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">22</SimpleData>
+					<SimpleData name="id">155</SimpleData>
+					<SimpleData name="year">1781</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.12754473621595,44.33024426594496,0 -73.89949327017212,44.34752327551617,0 -73.86182037662793,44.15839781082043,0 -74.09352225518715,44.1374987504499,0 -74.12754473621595,44.33024426594496,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Benson</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">16</SimpleData>
+					<SimpleData name="id">28</SimpleData>
+					<SimpleData name="year">1795</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.32763543356006,43.34768991571848,0 -74.22425313388547,43.24841221129488,0 -74.22085798500011,43.22137919440782,0 -74.33338568645868,43.21384908288746,0 -74.3442730081709,43.22914378856464,0 -74.38770958008593,43.21588328323756,0 -74.4716234369043,43.22018186158866,0 -74.53453968460305,43.22807848237014,0 -74.4722002121453,43.33651214670024,0 -74.32763543356006,43.34768991571848,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Palmer&apos;s Purchase</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">14</SimpleData>
+					<SimpleData name="id">44</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.22425313388547,43.24841221129488,0 -74.19064374822455,43.25056094911014,0 -74.31708731867418,43.3812500903241,0 -74.06006041420878,43.52936623226507,0 -73.826255,43.293904,0 -73.81934868153661,43.24052224905544,0 -74.16833,43.061073,0 -74.185318,43.077917,0 -74.209278,43.064587,0 -74.21882700000001,43.073864,0 -74.222223,43.058111,0 -74.256738,43.091686,0 -74.255707,43.09954,0 -74.255707,43.09954,0 -74.26125010269263,43.16512846307063,0 -74.21724911174317,43.19249121816768,0 -74.22085798500011,43.22137919440782,0 -74.22425313388547,43.24841221129488,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">19</SimpleData>
+					<SimpleData name="id">144</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.31704386256665,43.381275132648,0 -74.19068643920332,43.25055830248765,0 -74.22425328054123,43.24841220598616,0 -74.32763543356006,43.34768991571848,0 -74.34541823269422,43.36494631130461,0 -74.31704386256665,43.381275132648,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Macombs Purchase</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">2</SimpleData>
+					<SimpleData name="id">2</SimpleData>
+					<SimpleData name="year">1791</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-75.06283482118617,44.0503679249186,0 -75.2767287508525,44.14267912842545,0 -75.280998,44.181407,0 -75.18636718126024,44.18857333511385,0 -75.20026568464516,44.29795650147999,0 -75.05849548083999,44.30615858810639,0 -75.08323799999999,44.456903,0 -74.94235484449776,44.46650513650054,0 -74.94235647080063,44.47009756129671,0 -74.82420187074418,44.47951764416096,0 -74.833946,44.562703,0 -74.837335,44.60773,0 -74.70126000000001,44.618564,0 -74.71502099999999,44.694796,0 -74.60749736966766,44.70387493557666,0 -74.602931,44.676537,0 -74.56439236831314,44.67892586898733,0 -74.195431,44.703696,0 -74.09353228777233,44.13755558745131,0 -75.06278537075443,44.05037237292881,0 -75.06283482118617,44.0503679249186,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Watson East</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">7</SimpleData>
+					<SimpleData name="id">6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-75.06283482118617,44.0503679249186,0 -74.96399521323568,43.95593631480932,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -75.17584842427701,43.94313354059489,0 -75.21254508299268,43.90582945747103,0 -75.227864,43.906673,0 -75.08903602364585,44.06178749267076,0 -75.06283482118617,44.0503679249186,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Totten and Crossfield</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">1</SimpleData>
+					<SimpleData name="id">1</SimpleData>
+					<SimpleData name="year">1771</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-75.06283482118617,44.0503679249186,0 -73.85284107724954,44.15920548860625,0 -73.77932201782213,44.08418448524572,0 -73.78875186508269,44.07995602762038,0 -73.70324324592592,44.00037179316271,0 -73.93382817491624,43.88080206039813,0 -73.80206922616425,43.6780380590818,0 -74.06006041420878,43.52936623226507,0 -74.06006041420878,43.52936623226507,0 -74.06006041420878,43.52936623226507,0 -74.06006041420878,43.52936623226507,0 -74.06006041420878,43.52936623226507,0 -74.06006041420878,43.52936623226507,0 -74.31704386256665,43.381275132648,0 -74.34541823269422,43.36494631130461,0 -74.34541823269422,43.36494631130461,0 -74.36785007858813,43.38637775330858,0 -74.36785007858813,43.38637775330858,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.77250620851142,43.77298723792314,0 -74.96399521323568,43.95593631480932,0 -74.96399521323568,43.95593631480932,0 -75.06283482118617,44.0503679249186,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>John Brown&apos;s Tract</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">6</SimpleData>
+					<SimpleData name="id">8</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.96399521323568,43.95593631480932,0 -74.96399521323568,43.95593631480932,0 -74.77250620851142,43.77298723792314,0 -75.10927084051417,43.61571279814487,0 -75.10927084051417,43.61571279814487,0 -75.10927084051417,43.61571279814487,0 -75.15001087914372,43.94441276789333,0 -75.15001087914372,43.94441276789333,0 -74.96399521323568,43.95593631480932,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Moose River Tract</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">8</SimpleData>
+					<SimpleData name="id">11</SimpleData>
+					<SimpleData name="year">1820</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.77250620851142,43.77298723792314,0 -74.36785007858813,43.38637775330858,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36787892112963,43.38640530954529,0 -74.36785007858813,43.38637775330858,0 -74.36785007857392,43.38637775329499,0 -74.47826351538038,43.38050547530131,0 -75.10927084051417,43.61571279814487,0 -75.10927084051417,43.61571279814487,0 -74.77250620851142,43.77298723792314,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Oxbow Tract</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Adirondack_Tracts">
+					<SimpleData name="gid">9</SimpleData>
+					<SimpleData name="id">19</SimpleData>
+					<SimpleData name="year">1811</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74.63121526303478,43.43751810490476,0 -74.47805807740147,43.38051618370116,0 -74.36785007858813,43.38637775330858,0 -74.36785007858813,43.38637775330858,0 -74.36785007858813,43.38637775330858,0 -74.34541823269422,43.36494631130461,0 -74.34541823269422,43.36494631130461,0 -74.32763543356006,43.34768991571848,0 -74.4722002121453,43.33651214670024,0 -74.51014896649663,43.2705038484448,0 -74.67836462439195,43.32754888542277,0 -74.62748579145251,43.40810826193635,0 -74.64667321747784,43.41444493120564,0 -74.63121526303478,43.43751810490476,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
